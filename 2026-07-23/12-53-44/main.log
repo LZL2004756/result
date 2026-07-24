@@ -1,0 +1,179 @@
+[2026-07-23 12:53:46,977][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/allenai/ai2_arc/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-07-23 12:53:47,318][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/allenai/ai2_arc/210d026faf9955653af8916fad021475a3f00453/README.md "HTTP/1.1 200 OK"
+[2026-07-23 12:53:47,580][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/ai2_arc.py "HTTP/1.1 404 Not Found"
+[2026-07-23 12:53:48,503][httpx][INFO] - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/allenai/ai2_arc/allenai/ai2_arc.py "HTTP/1.1 404 Not Found"
+[2026-07-23 12:53:48,781][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/allenai/ai2_arc/revision/210d026faf9955653af8916fad021475a3f00453 "HTTP/1.1 200 OK"
+[2026-07-23 12:53:49,045][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/.huggingface.yaml "HTTP/1.1 404 Not Found"
+[2026-07-23 12:53:49,045][huggingface_hub.utils._http][WARNING] - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-07-23 12:53:49,710][httpx][INFO] - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=allenai/ai2_arc "HTTP/1.1 200 OK"
+[2026-07-23 12:53:50,002][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/allenai/ai2_arc/tree/210d026faf9955653af8916fad021475a3f00453/ARC-Challenge?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-07-23 12:53:50,276][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/allenai/ai2_arc/tree/210d026faf9955653af8916fad021475a3f00453?recursive=false&expand=false "HTTP/1.1 200 OK"
+[2026-07-23 12:53:50,561][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/dataset_infos.json "HTTP/1.1 404 Not Found"
+[2026-07-23 12:53:50,719][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'cxx'!
+[2026-07-23 12:53:50,719][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'gcc_version_str'!
+[2026-07-23 12:53:50,719][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'compile__timeout'!
+[2026-07-23 12:53:50,720][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'DebugMode__check_c'!
+[2026-07-23 12:53:50,720][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'compiledir'!
+[2026-07-23 12:53:50,815][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'blas__ldflags'!
+[2026-07-23 12:53:50,832][pytensor.configdefaults][WARNING] - g++ not available, if using conda: `conda install gxx`
+[2026-07-23 12:53:51,551][arviz][INFO] - Found 'auto' as default backend, checking available backends
+[2026-07-23 12:53:51,552][arviz][INFO] - Matplotlib is available, defining as default backend
+[2026-07-23 12:53:52,038][arviz][INFO] - arviz_base 1.2.0 available, exposing its functions as part of the `arviz` namespace
+[2026-07-23 12:53:52,197][arviz][INFO] - arviz_stats 1.2.0 available, exposing its functions as part of the `arviz` namespace
+[2026-07-23 12:53:52,257][arviz][INFO] - arviz_plots 1.2.0 available, exposing its functions as part of the `arviz` namespace
+[2026-07-23 12:53:52,494][pymc.sampling.mcmc][INFO] - Initializing NUTS using jitter+adapt_diag...
+[2026-07-23 12:53:53,659][pymc.sampling.mcmc][INFO] - Multiprocess sampling (4 chains in 4 jobs)
+[2026-07-23 12:53:53,659][pymc.sampling.mcmc][INFO] - NUTS: [alpha, beta]
+[2026-07-23 12:54:53,298][pymc.sampling.mcmc][INFO] - Sampling 4 chains for 1_000 tune and 1_000 draw iterations (4_000 + 4_000 draws total) took 60 seconds.
+[2026-07-23 12:54:53,424][pymc.sampling.mcmc][INFO] - Initializing NUTS using jitter+adapt_diag...
+[2026-07-23 12:54:53,716][pymc.sampling.mcmc][INFO] - Multiprocess sampling (4 chains in 4 jobs)
+[2026-07-23 12:54:53,732][pymc.sampling.mcmc][INFO] - NUTS: [alpha, beta]
+[2026-07-23 12:55:49,582][pymc.sampling.mcmc][INFO] - Sampling 4 chains for 1_000 tune and 1_000 draw iterations (4_000 + 4_000 draws total) took 56 seconds.
+[2026-07-23 12:55:49,693][pymc.sampling.mcmc][INFO] - Initializing NUTS using jitter+adapt_diag...
+[2026-07-23 12:55:49,999][pymc.sampling.mcmc][INFO] - Multiprocess sampling (4 chains in 4 jobs)
+[2026-07-23 12:55:49,999][pymc.sampling.mcmc][INFO] - NUTS: [alpha, beta]
+[2026-07-23 12:56:46,545][pymc.sampling.mcmc][INFO] - Sampling 4 chains for 1_000 tune and 1_000 draw iterations (4_000 + 4_000 draws total) took 57 seconds.
+[2026-07-23 12:56:46,581][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910463652931617 and rel_err 1.0
+[2026-07-23 12:56:46,581][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910463652931617 and rel_err 1.0
+[2026-07-23 12:56:46,581][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910463652931617 and rel_err 1.0
+[2026-07-23 12:56:46,596][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:46,662][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910463652931617 and rel_err 1.0
+[2026-07-23 12:56:46,663][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910463652931617 and rel_err 1.0
+[2026-07-23 12:56:46,663][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910463652931617 and rel_err 1.0
+[2026-07-23 12:56:46,673][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:46,758][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.7193445761070745 and rel_err 1.0
+[2026-07-23 12:56:46,759][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.7193445761070745 and rel_err 1.0
+[2026-07-23 12:56:46,759][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.7193445761070745 and rel_err 1.0
+[2026-07-23 12:56:46,771][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:46,839][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.522462133747632 and rel_err 1.0
+[2026-07-23 12:56:46,839][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.522462133747632 and rel_err 1.0
+[2026-07-23 12:56:46,840][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.522462133747632 and rel_err 1.0
+[2026-07-23 12:56:46,852][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:47,112][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910446188770698 and rel_err 1.0
+[2026-07-23 12:56:47,112][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910446188770698 and rel_err 1.0
+[2026-07-23 12:56:47,112][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910446188770698 and rel_err 1.0
+[2026-07-23 12:56:47,128][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:47,182][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910446188770698 and rel_err 1.0
+[2026-07-23 12:56:47,182][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910446188770698 and rel_err 1.0
+[2026-07-23 12:56:47,182][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910446188770698 and rel_err 1.0
+[2026-07-23 12:56:47,199][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:47,265][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.817959268795063 and rel_err 1.0
+[2026-07-23 12:56:47,265][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.817959268795063 and rel_err 1.0
+[2026-07-23 12:56:47,265][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.817959268795063 and rel_err 1.0
+[2026-07-23 12:56:47,285][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:47,357][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.103294615131908 and rel_err 1.0
+[2026-07-23 12:56:47,357][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.103294615131908 and rel_err 1.0
+[2026-07-23 12:56:47,357][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.103294615131908 and rel_err 1.0
+[2026-07-23 12:56:47,357][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:47,708][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910477898441719 and rel_err 1.0
+[2026-07-23 12:56:47,708][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910477898441719 and rel_err 1.0
+[2026-07-23 12:56:47,708][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910477898441719 and rel_err 1.0
+[2026-07-23 12:56:47,723][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:47,780][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910477898441719 and rel_err 1.0
+[2026-07-23 12:56:47,780][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910477898441719 and rel_err 1.0
+[2026-07-23 12:56:47,781][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910477898441719 and rel_err 1.0
+[2026-07-23 12:56:47,795][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:47,866][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.88639374564748 and rel_err 1.0
+[2026-07-23 12:56:47,867][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.88639374564748 and rel_err 1.0
+[2026-07-23 12:56:47,867][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.88639374564748 and rel_err 1.0
+[2026-07-23 12:56:47,882][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:47,958][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.085279210301828 and rel_err 1.0
+[2026-07-23 12:56:47,958][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.085279210301828 and rel_err 1.0
+[2026-07-23 12:56:47,958][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.085279210301828 and rel_err 1.0
+[2026-07-23 12:56:47,970][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:48,383][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910454175793098 and rel_err 1.0
+[2026-07-23 12:56:48,383][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910454175793098 and rel_err 1.0
+[2026-07-23 12:56:48,383][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910454175793098 and rel_err 1.0
+[2026-07-23 12:56:48,403][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:48,461][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910454175793098 and rel_err 1.0
+[2026-07-23 12:56:48,462][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910454175793098 and rel_err 1.0
+[2026-07-23 12:56:48,462][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910454175793098 and rel_err 1.0
+[2026-07-23 12:56:48,478][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:48,552][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.791148265110065 and rel_err 1.0
+[2026-07-23 12:56:48,553][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.791148265110065 and rel_err 1.0
+[2026-07-23 12:56:48,553][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.791148265110065 and rel_err 1.0
+[2026-07-23 12:56:48,565][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:48,646][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.295179416336517 and rel_err 1.0
+[2026-07-23 12:56:48,646][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.295179416336517 and rel_err 1.0
+[2026-07-23 12:56:48,647][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.295179416336517 and rel_err 1.0
+[2026-07-23 12:56:48,659][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:49,161][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910473189674781 and rel_err 1.0
+[2026-07-23 12:56:49,161][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910473189674781 and rel_err 1.0
+[2026-07-23 12:56:49,161][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910473189674781 and rel_err 1.0
+[2026-07-23 12:56:49,182][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:49,243][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910473189674781 and rel_err 1.0
+[2026-07-23 12:56:49,244][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910473189674781 and rel_err 1.0
+[2026-07-23 12:56:49,244][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910473189674781 and rel_err 1.0
+[2026-07-23 12:56:49,255][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:49,356][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.703989108310749 and rel_err 1.0
+[2026-07-23 12:56:49,356][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.703989108310749 and rel_err 1.0
+[2026-07-23 12:56:49,356][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.703989108310749 and rel_err 1.0
+[2026-07-23 12:56:49,370][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:49,452][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.969790198782935 and rel_err 1.0
+[2026-07-23 12:56:49,452][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.969790198782935 and rel_err 1.0
+[2026-07-23 12:56:49,452][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.969790198782935 and rel_err 1.0
+[2026-07-23 12:56:49,463][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:50,024][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910927794300483 and rel_err 1.0
+[2026-07-23 12:56:50,024][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910927794300483 and rel_err 1.0
+[2026-07-23 12:56:50,038][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910927794300483 and rel_err 1.0
+[2026-07-23 12:56:50,052][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:50,110][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910927794300483 and rel_err 1.0
+[2026-07-23 12:56:50,111][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910927794300483 and rel_err 1.0
+[2026-07-23 12:56:50,111][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910927794300483 and rel_err 1.0
+[2026-07-23 12:56:50,122][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:50,190][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.80822618793111 and rel_err 1.0
+[2026-07-23 12:56:50,191][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.80822618793111 and rel_err 1.0
+[2026-07-23 12:56:50,191][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.80822618793111 and rel_err 1.0
+[2026-07-23 12:56:50,205][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:50,282][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.373429396132483 and rel_err 1.0
+[2026-07-23 12:56:50,282][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.373429396132483 and rel_err 1.0
+[2026-07-23 12:56:50,282][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.373429396132483 and rel_err 1.0
+[2026-07-23 12:56:50,295][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:50,937][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910460434280799 and rel_err 1.0
+[2026-07-23 12:56:50,937][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910460434280799 and rel_err 1.0
+[2026-07-23 12:56:50,952][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910460434280799 and rel_err 1.0
+[2026-07-23 12:56:50,959][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:51,025][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910460434280799 and rel_err 1.0
+[2026-07-23 12:56:51,026][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910460434280799 and rel_err 1.0
+[2026-07-23 12:56:51,026][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910460434280799 and rel_err 1.0
+[2026-07-23 12:56:51,036][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:51,120][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.762570579753925 and rel_err 1.0
+[2026-07-23 12:56:51,120][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.762570579753925 and rel_err 1.0
+[2026-07-23 12:56:51,120][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.762570579753925 and rel_err 1.0
+[2026-07-23 12:56:51,137][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:51,220][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.121353723982825 and rel_err 1.0
+[2026-07-23 12:56:51,220][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.121353723982825 and rel_err 1.0
+[2026-07-23 12:56:51,221][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.121353723982825 and rel_err 1.0
+[2026-07-23 12:56:51,227][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:51,937][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910923502766059 and rel_err 1.0
+[2026-07-23 12:56:51,937][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910923502766059 and rel_err 1.0
+[2026-07-23 12:56:51,937][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910923502766059 and rel_err 1.0
+[2026-07-23 12:56:51,962][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:52,021][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910923502766059 and rel_err 1.0
+[2026-07-23 12:56:52,021][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910923502766059 and rel_err 1.0
+[2026-07-23 12:56:52,021][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910923502766059 and rel_err 1.0
+[2026-07-23 12:56:52,034][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:52,093][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.743766029583027 and rel_err 1.0
+[2026-07-23 12:56:52,093][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.743766029583027 and rel_err 1.0
+[2026-07-23 12:56:52,093][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.743766029583027 and rel_err 1.0
+[2026-07-23 12:56:52,118][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:52,195][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.051170563349582 and rel_err 1.0
+[2026-07-23 12:56:52,195][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.051170563349582 and rel_err 1.0
+[2026-07-23 12:56:52,195][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 7.051170563349582 and rel_err 1.0
+[2026-07-23 12:56:52,207][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:52,988][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910480103813575 and rel_err 1.0
+[2026-07-23 12:56:52,988][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910480103813575 and rel_err 1.0
+[2026-07-23 12:56:52,989][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910480103813575 and rel_err 1.0
+[2026-07-23 12:56:52,996][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:53,060][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910480103813575 and rel_err 1.0
+[2026-07-23 12:56:53,060][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910480103813575 and rel_err 1.0
+[2026-07-23 12:56:53,061][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 6.910480103813575 and rel_err 1.0
+[2026-07-23 12:56:53,074][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:53,154][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.778727014766742 and rel_err 1.0
+[2026-07-23 12:56:53,155][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.778727014766742 and rel_err 1.0
+[2026-07-23 12:56:53,155][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 5.778727014766742 and rel_err 1.0
+[2026-07-23 12:56:53,169][pymc.sampling.forward][INFO] - Sampling: []
+[2026-07-23 12:56:53,242][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.528239586333289 and rel_err 1.0
+[2026-07-23 12:56:53,242][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.528239586333289 and rel_err 1.0
+[2026-07-23 12:56:53,242][pytensor.tensor.type][INFO] - numpy allclose failed for abs_err 8.528239586333289 and rel_err 1.0
+[2026-07-23 12:56:53,262][pymc.sampling.forward][INFO] - Sampling: []

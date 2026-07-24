@@ -1,0 +1,23 @@
+[2026-07-23 10:41:04,518][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/allenai/ai2_arc/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-07-23 10:41:04,520][huggingface_hub.utils._http][WARNING] - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-07-23 10:41:04,933][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/allenai/ai2_arc/210d026faf9955653af8916fad021475a3f00453/README.md "HTTP/1.1 200 OK"
+[2026-07-23 10:41:05,222][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/ai2_arc.py "HTTP/1.1 404 Not Found"
+[2026-07-23 10:41:06,218][httpx][INFO] - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/allenai/ai2_arc/allenai/ai2_arc.py "HTTP/1.1 404 Not Found"
+[2026-07-23 10:41:06,497][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/allenai/ai2_arc/revision/210d026faf9955653af8916fad021475a3f00453 "HTTP/1.1 200 OK"
+[2026-07-23 10:41:06,799][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/.huggingface.yaml "HTTP/1.1 404 Not Found"
+[2026-07-23 10:41:08,556][httpx][INFO] - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=allenai/ai2_arc "HTTP/1.1 200 OK"
+[2026-07-23 10:41:08,863][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/allenai/ai2_arc/tree/210d026faf9955653af8916fad021475a3f00453/ARC-Challenge?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-07-23 10:41:09,547][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/allenai/ai2_arc/tree/210d026faf9955653af8916fad021475a3f00453?recursive=false&expand=false "HTTP/1.1 200 OK"
+[2026-07-23 10:41:09,888][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/allenai/ai2_arc/resolve/210d026faf9955653af8916fad021475a3f00453/dataset_infos.json "HTTP/1.1 404 Not Found"
+[2026-07-23 10:41:10,096][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'cxx'!
+[2026-07-23 10:41:10,096][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'gcc_version_str'!
+[2026-07-23 10:41:10,096][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'compile__timeout'!
+[2026-07-23 10:41:10,096][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'DebugMode__check_c'!
+[2026-07-23 10:41:10,098][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'compiledir'!
+[2026-07-23 10:41:10,190][pytensor.configparser][INFO] - Suppressed KeyError in PyTensorConfigParser.add for parameter 'blas__ldflags'!
+[2026-07-23 10:41:10,203][pytensor.configdefaults][WARNING] - g++ not available, if using conda: `conda install gxx`
+[2026-07-23 10:41:10,909][arviz][INFO] - Found 'auto' as default backend, checking available backends
+[2026-07-23 10:41:10,909][arviz][INFO] - Matplotlib is available, defining as default backend
+[2026-07-23 10:41:11,357][arviz][INFO] - arviz_base 1.2.0 available, exposing its functions as part of the `arviz` namespace
+[2026-07-23 10:41:11,507][arviz][INFO] - arviz_stats 1.2.0 available, exposing its functions as part of the `arviz` namespace
+[2026-07-23 10:41:11,568][arviz][INFO] - arviz_plots 1.2.0 available, exposing its functions as part of the `arviz` namespace
